@@ -13,6 +13,16 @@ func appendSlice(parent []int, otherSlice []int) []int {
 	return parent
 }
 
+func extractEvenNumbersSlice(parent []int) []int {
+	newSlice := make([]int, 0, len(parent))
+	for _, elem := range parent {
+		if elem%2 == 0 {
+			newSlice = append(newSlice, elem)
+		}
+	}
+	return newSlice
+}
+
 func ExecBasic() {
 	list := []int{1, 2, 3, 5, 7, 11}
 	fmt.Println(list)
@@ -25,4 +35,7 @@ func ExecBasic() {
 
 	mergeSlice := appendSlice(half, []int{0, 3, 9})
 	fmt.Println(mergeSlice)
+
+	evenSlice := extractEvenNumbersSlice(mergeSlice)
+	fmt.Println(evenSlice)
 }
