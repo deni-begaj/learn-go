@@ -1,6 +1,7 @@
 # Learning GO
 
-This repository is built for the sole purpose of learning GO and experimenting with different concepts and patterns.
+This repository is built for the sole purpose of learning GO and experimenting
+with different concepts and patterns.
 
 ## Requirements
 

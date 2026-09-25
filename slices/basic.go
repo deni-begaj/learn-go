@@ -1,4 +1,4 @@
-package main
+package slices
 
 import "fmt"
 
@@ -23,7 +23,10 @@ func extractEvenNumbersSlice(parent []int) []int {
 	return newSlice
 }
 
-func ExecBasic() {
+func SlicesBasic() {
+	fmt.Println("\n-------### Slices > Basic ###------")
+	defer fmt.Println("------------------------------------")
+
 	list := []int{1, 2, 3, 5, 7, 11}
 	fmt.Println(list)
 
