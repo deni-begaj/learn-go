@@ -14,4 +14,7 @@ func StructsBasic() {
 
 	john := Person{"John Doe", 34, "Orlando"}
 	fmt.Printf("%v is %v and is from %v\n", john.Name, john.Age, john.City)
+
+	john.Name = "Jonah"
+	fmt.Printf("My name is actually %v\n", john.Name)
 }

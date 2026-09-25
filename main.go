@@ -7,5 +7,7 @@ import (
 
 func main() {
 	slices.SlicesBasic()
+	slices.SlicesNormal()
+
 	structs.StructsBasic()
 }
