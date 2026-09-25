@@ -11,6 +11,7 @@ func main() {
 	slices.SlicesNormal()
 
 	structs.StructsBasic()
+	structs.StructsNormal()
 
 	pointers.PointersBasic()
 }
