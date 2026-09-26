@@ -7,7 +7,14 @@ with different concepts and patterns.
 
 1. Install [Go](https://go.dev/doc/install)
 
+## Plan
+
+The curriculum, the current exercise, and the target API stack are in [PLAN.md](PLAN.md).
+
 ## Project Structure
 
-The project is split into folders, each folder denoting one concept/pattern visited.
-E.g. you can run `go run ./slices` to execute slices functions.
+Each folder is one concept and one library package. The root `main.go` is the only program.
+
+```sh
+go run .
+```
