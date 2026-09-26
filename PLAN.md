@@ -13,8 +13,6 @@ Done.
 - Pointers: `&`, `*`, and a pointer receiver that mutates (`pointers`, `Car.drive`).
 - Maps: a `map[string]User` and `range` (`maps`).
 
-Checkpoint still worth repeating: `list[:4]` shares `list`'s backing array. An `append` that fits in the spare capacity overwrites `list`. Print `list` again after that `append` and the original elements have changed. A slice from `make` has its own array.
-
 ## Day 2 — errors and boundaries
 
 A miss is a return value. `panic` is for a bug, not for a missing user.
