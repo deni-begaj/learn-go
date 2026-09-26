@@ -1,7 +1,9 @@
+// Package pointers is this
 package pointers
 
 import "fmt"
 
+// PointersBasic is a general method
 func PointersBasic() {
 	fmt.Println("\n------### Pointers > Basic ###------")
 	defer fmt.Println("------------------------------------")
